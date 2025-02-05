@@ -1,7 +1,10 @@
 {
+  "name": "finance-project-backend",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -14,14 +17,12 @@
     "nodemon": "^3.1.4",
     "validator": "^13.12.0"
   },
-  "name": "finance-project-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon server.js"
+  "engines": {
+    "node": "20.x"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
 }
+
