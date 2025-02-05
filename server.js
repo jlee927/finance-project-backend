@@ -30,14 +30,8 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
-app.listen(PORT, () => {
-  console.log(`Listening on PORT ${PORT}`);
-});
-
-/*
 mongoose.connect(dbURI).then((result) => {
   app.listen(PORT, () => {
     console.log(`Listening on PORT ${PORT}`);
   });
 });
-*/
