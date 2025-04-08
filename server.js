@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 const cors = require("cors");
 
 // external routes
-// const userRoutes = require("./routes/user");
+const userRoutes = require("./routes/user");
 // const revenueRoutes = require("./routes/revenue");
 // const expensesRoutes = require("./routes/expenses");
 // const savingsRoutes = require("./routes/savings");
