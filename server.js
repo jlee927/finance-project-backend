@@ -15,8 +15,8 @@ const cors = require("cors");
 
 const mongoose = require("mongoose");
 const dbURI = process.env.MONGO_URI;
-// app.use(cors());
-// app.use(express.json());
+app.use(cors());
+app.use(express.json());
 //
 // // routes
 // app.use("/api/user", userRoutes);
