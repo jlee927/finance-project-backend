@@ -7,7 +7,7 @@ const cors = require("cors");
 
 // external routes
 // const userRoutes = require("./routes/user");
-const revenueRoutes = require("./routes/revenue");
+// const revenueRoutes = require("./routes/revenue");
 // const expensesRoutes = require("./routes/expenses");
 // const savingsRoutes = require("./routes/savings");
 // const spendingsRoutes = require("./routes/spending");
