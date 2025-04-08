@@ -13,8 +13,8 @@ const cors = require("cors");
 // const spendingsRoutes = require("./routes/spending");
 // const dashboardRoutes = require("./routes/dashboard");
 //
-// const mongoose = require("mongoose");
-// const dbURI = process.env.MONGO_URI;
+const mongoose = require("mongoose");
+const dbURI = process.env.MONGO_URI;
 // app.use(cors());
 // app.use(express.json());
 //
