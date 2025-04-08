@@ -30,8 +30,14 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
-mongoose.connect(dbURI).then((result) => {
-  app.listen(PORT, () => {
-    console.log(`Listening on PORT ${PORT}`);
+mongoose
+  .connect(dbURI)
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`Listening on PORT ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("MongoDB connection error:", err);
+    process.exit(1);
   });
-});
